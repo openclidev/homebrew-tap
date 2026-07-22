@@ -4,12 +4,12 @@ cask "ocli" do
 
   on_macos do
     on_intel do
-      sha256 "97b16655e5b58dcf950930a7ee89d04f880408243b81f38b6f8301f9dbfa7c91"
+      sha256 "e38844dd2910b92ea4aa356112cd044e1e831af6f68b0d8b1cbb027097dd4c8a"
       url "https://github.com/bcdxn/opencli/releases/download/v#{version}/ocli_Darwin_x86_64.tar.gz",
         verified: "github.com/opencli/opencli/"
     end
     on_arm do
-      sha256 "586c7f55182328a757e1490c47f2aaf7a1177ba24f2523924b243a1a4707df9d"
+      sha256 "d1b1d891a877cc47e6f37360a7d873f9df118a369b4eae536338c33d9f250039"
       url "https://github.com/bcdxn/opencli/releases/download/v#{version}/ocli_Darwin_arm64.tar.gz",
         verified: "github.com/opencli/opencli/"
     end
@@ -17,12 +17,12 @@ cask "ocli" do
 
   on_linux do
     on_intel do
-      sha256 "eebdd0d935dc1d1ec52b6a7ca61c7d8f0dab6b39a6a844c4dac77358b86cbb76"
+      sha256 "08e2f50d2e5dfdaad0fbd7a51cfb45ec8dbd3a0f7113c2751ae7df59f95926a5"
       url "https://github.com/bcdxn/opencli/releases/download/v#{version}/ocli_Linux_x86_64.tar.gz",
         verified: "github.com/opencli/opencli/"
     end
     on_arm do
-      sha256 "035c19bf21740737c1560d33186538b66e75067d4e34dbe20c76ee1739032bd9"
+      sha256 "a36146487bf68c60a714ec8a9f85a2fd5693f5a7ca637f88fa21a9857b80c43e"
       url "https://github.com/bcdxn/opencli/releases/download/v#{version}/ocli_Linux_arm64.tar.gz",
         verified: "github.com/opencli/opencli/"
     end
